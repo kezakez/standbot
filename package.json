@@ -1,0 +1,17 @@
+{
+  "name": "standbot",
+  "version": "1.0.0",
+  "description": "Detect if you are sitting in front of the robot for a period of time fade a light to red to warn you to move",
+  "main": "index.js",
+  "scripts": {
+    "default": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies": {
+        "johnny-five": "^0.9.59",
+        "keypress": "^0.2.1",
+        "node-pixel": "^0.6.0"
+    }, 
+  "author": "keza",
+  "license": "ISC"
+}
